@@ -1,0 +1,47 @@
+kind: Environment
+name: 'demo-eaas template'
+type: primary
+components:
+    -
+        kind: Database
+        name: db
+        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
+        gitBranch: master
+        dockerCompose:
+            command: '--ignore-db-dir=lost+found'
+            environment:
+                MYSQL_DATABASE: wordpress
+                MYSQL_PASSWORD: wordpress
+                MYSQL_ROOT_PASSWORD: somewordpress
+                MYSQL_USER: wordpress
+            image: 'mysql:5.7'
+            ports:
+                - '3306:3306'
+            restart: always
+        volumes:
+            -
+                name: db-data
+                mount: /var/lib/mysql
+                subPath: ''
+    -
+        kind: Application
+        name: myapp
+        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
+        gitBranch: master
+        gitApplicationPath: /
+        dockerCompose:
+            build:
+                context: .
+            ports:
+                - '8000:80'
+            restart: always
+        hosts:
+            -
+                hostname: 'myapp-{{ env.base_domain }}'
+                path: /
+                servicePort: 8000
+volumes:
+    -
+        name: db-data
+        size: 1Gi
+        type: disk
