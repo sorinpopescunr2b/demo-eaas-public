@@ -25,7 +25,7 @@ components:
                 subPath: ''
     -
         kind: Application
-        name: myapp
+        name: myappunu
         gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: master
         gitApplicationPath: /
