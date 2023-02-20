@@ -40,6 +40,23 @@ components:
                 hostname: 'myapp-{{ env.base_domain }}'
                 path: /
                 servicePort: 8000
+    -
+        kind: Application
+        name: myapp2
+        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
+        gitBranch: master
+        gitApplicationPath: /
+        dockerCompose:
+            build:
+                context: .
+            ports:
+                - '8000:80'
+            restart: always
+        hosts:
+            -
+                hostname: 'myapp2-{{ env.base_domain }}'
+                path: /
+                servicePort: 8000
 volumes:
     -
         name: db-data
