@@ -5,7 +5,7 @@ tags:
    - express
    - react
    - postgres
-icons: [ 'nodejs', 'postgress', 'react' ]
+icons: [ 'nodejs', 'postgress', 'react', 'express' ]
 stack:
   packages:
     - name: nodejs
@@ -14,4 +14,6 @@ stack:
       version: '4.18.2'
     - name: postgres
       version: '11.9.11'
+    - name: react
+      version: '17.02'
 discoverable: true
