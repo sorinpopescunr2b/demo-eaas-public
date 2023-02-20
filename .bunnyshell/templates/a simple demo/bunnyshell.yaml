@@ -42,7 +42,7 @@ components:
                 servicePort: 8000
     -
         kind: Application
-        name: myapp2
+        name: myapp3
         gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: master
         gitApplicationPath: /
