@@ -6,7 +6,7 @@ components:
         kind: Database
         name: db
         gitRepo: 'https://github.com/bunny-neo-demo/demo-eaas.git'
-        gitBranch: master
+        gitBranch: masterasdasd
         dockerCompose:
             command: '--ignore-db-dir=lost+found'
             environment:
