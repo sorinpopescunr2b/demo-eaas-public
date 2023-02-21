@@ -5,7 +5,7 @@ components:
     -
         kind: Database
         name: db
-        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
+        gitRepo: 'https://github.com/bunny-neo-demo/demo-eaas.git'
         gitBranch: master
         dockerCompose:
             command: '--ignore-db-dir=lost+found'
