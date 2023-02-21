@@ -1,4 +1,4 @@
-name: demo eaas template 1 test1
+name: demo eaas template from a simple demo - test1 
 description: This app is a CRUD example, composed out of a frontend, one backend service and one database. Its purpose is to illustrate how you can quickly get started with Bunnyshell.
 tags:
    - nodejs
