@@ -54,7 +54,7 @@ components:
             restart: always
         hosts:
             -
-                hostname: 'myapp2-{{ env.base_domain }}'
+                hostname: 'myapp2abc-{{ env.base_domain }}'
                 path: /
                 servicePort: 8000
 volumes:
