@@ -1,6 +1,7 @@
 kind: Environment
 name: 'demo-eaas template'
 type: primary
+VAR_DATABASE: wordpress
 components:
     -
         kind: Database
