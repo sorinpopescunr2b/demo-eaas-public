@@ -1,5 +1,5 @@
 kind: Environment
-name: 'demo-eaas template'
+name: 'demo-eaas template test'
 type: primary
 VAR_DATABASE: wordpress
 components:
