@@ -1,16 +1,19 @@
 name: 'demo-eaas-master'
-description: 'This is just a simple NGINX template.'
+description: This app is a CRUD example, composed out of one frontend, one backend service and one database. Its purpose is to illustrate how you can quickly get started with Bunnyshell.
 tags:
-   - nginx
+   - python
+   - django
+   - react
+   - mariadb
+icons: [ 'python', 'django', 'react', 'maria' ]
 stack:
   packages:
-    - name: nodejs
-      version: '16'
-    - name: express
-      version: '4.18.2'
-    - name: postgres
-      version: '11.9.11'
-    - name: react
-      version: '17.02'
-icons: [ 'nginx' ]
+    - name: Python
+      version: '3.11'
+    - name: Django
+      version: '4.1'
+    - name: React
+      version: '18.2'
+    - name: MariaDB
+      version: '10.11'
 discoverable: true
