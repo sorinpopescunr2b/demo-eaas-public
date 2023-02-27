@@ -1,5 +1,5 @@
 kind: Environment
-name: 'demo-eaas template 3'
+name: 'demo-eaas template 4'
 type: primary
 components:
     -
