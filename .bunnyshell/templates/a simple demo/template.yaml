@@ -1,12 +1,12 @@
 name: a simple demo template t3
 description: This app is a CRUD example, composed out of a frontend, one backend service and one database. Its purpose is to illustrate how you can quickly get started with Bunnyshell.
-tags:
+atags:
    - nodejs
    - express
    - react
    - postgres
-icons: [ 'nodejs', 'postgress', 'react', 'express' ]
-stack:
+aicons: [ 'nodejs', 'postgress', 'react', 'express' ]
+astack:
   packages:
     - name: nodejs
       version: '16'
