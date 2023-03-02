@@ -6,7 +6,7 @@ atags:
    - react
    - postgres
 aicons: [ 'nodejs', 'postgress', 'react', 'express' ]
-astack:
+stack:
   packages:
     - name: nodejs
       version: '16'
