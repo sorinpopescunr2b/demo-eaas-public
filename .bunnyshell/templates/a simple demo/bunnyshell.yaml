@@ -45,7 +45,7 @@ components:
         kind: Application
         name: myapp2
         gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
-        gitBranch: master2
+        gitBranch: master
         gitApplicationPath: /
         dockerCompose:
             build:
