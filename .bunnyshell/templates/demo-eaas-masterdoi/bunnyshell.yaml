@@ -1,6 +1,6 @@
 kind: Environment
 name: 'demo-eaas template'
-type: primarys
+type: primary
 components:
     -
         kind: Database
@@ -42,6 +42,6 @@ components:
                 servicePort: 8000
 volumes:
     -
-        name: db-data
+        name: adb-data
         size: 1Gi
         type: disk
