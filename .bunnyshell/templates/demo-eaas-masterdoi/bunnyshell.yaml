@@ -1,6 +1,6 @@
 kind: Environment
 name: 'demo-eaas template'
-type: primary
+type: primarys
 components:
     -
         kind: Database
