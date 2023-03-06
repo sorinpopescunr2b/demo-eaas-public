@@ -26,7 +26,7 @@ components:
     -
         kind: Application
         name: myapp
-        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
+        agitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: masterdoi
         gitApplicationPath: /
         dockerCompose:
@@ -37,7 +37,7 @@ components:
             restart: always
         hosts:
             -
-                hostname: 'myapp-{{ env.base_domainasd }}'
+                hostname: 'myapp-{{ env.base_domain }}'
                 path: /
                 servicePort: 8000
 volumes:
