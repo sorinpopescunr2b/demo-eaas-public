@@ -13,4 +13,4 @@ stack:
     - name: react
       version: '17.02'
 icons: [ 'nginx' ]
-discoverable: false
+adiscoverable: false
