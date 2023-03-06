@@ -3,7 +3,7 @@ name: 'demo-eaas template'
 type: primary
 components:
     -
-        kind: Database
+        kind: Databased
         name: db
         gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: masterdoi
@@ -26,7 +26,7 @@ components:
     -
         kind: Application
         name: myapp
-        agitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
+        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: masterdoi
         gitApplicationPath: /
         dockerCompose:
