@@ -42,6 +42,6 @@ components:
                 servicePort: 8000
 volumes:
     -
-        name: adb-data
+        name: db-data
         size: 1Gi
         type: disk
