@@ -1,9 +1,9 @@
-name: 'demo-eaas-masterdoi'
+aname: 'demo-eaas-masterdoi'
 description: 'This is just a simple NGINX template.'
 tags:
    - nginx
-astack:
-  packages:
+stack:
+  apackages:
     - name: nodejs
       version: '16'
     - name: express
@@ -13,4 +13,4 @@ astack:
     - name: react
       version: '17.02'
 icons: [ 'nginx' ]
-discoverable: true
+adiscoverable: true
