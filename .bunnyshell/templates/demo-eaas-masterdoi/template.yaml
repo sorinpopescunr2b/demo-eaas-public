@@ -2,7 +2,7 @@ name: 'demo-eaas-masterdoi'
 description: 'This is just a simple NGINX template.'
 tags:
    - nginx
-stack:
+astack:
   packages:
     - name: nodejs
       version: '16'
