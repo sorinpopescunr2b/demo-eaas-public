@@ -1,4 +1,4 @@
-aname: 'demo-eaas-masterdoi'
+name: 'demo-eaas-masterdoi'
 description: 'This is just a simple NGINX template.'
 tags:
    - nginx
@@ -13,4 +13,4 @@ stack:
     - name: react
       version: '17.02'
 icons: [ 'nginx' ]
-adiscoverable: true
+discoverable: false
