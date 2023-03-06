@@ -3,7 +3,7 @@ name: 'demo-eaas template'
 type: primary
 components:
     -
-        kind: Databased
+        kind: Database
         name: db
         gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: masterdoi
