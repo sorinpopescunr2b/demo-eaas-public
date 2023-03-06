@@ -3,7 +3,7 @@ description: 'This is just a simple NGINX template.'
 tags:
    - nginx
 stack:
-  apackages:
+  packages:
     - name: nodejs
       version: '16'
     - name: express
