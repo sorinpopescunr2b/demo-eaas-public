@@ -6,7 +6,7 @@ components:
         kind: Database
         name: db1
         gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
-        gitBranch: masterfds
+        gitBranch: master
         dockerCompose:
             command: '--ignore-db-dir=lost+found'
             environment:
@@ -26,7 +26,7 @@ components:
     -
         kind: Application
         name: myappunu
-        gitRepo: 'https://github.com/sdfsorinpopescunr2/demo-eaas.git'
+        gitRepo: 'https://github.com/sorinpopescunr2/demo-eaas.git'
         gitBranch: master
         gitApplicationPath: /
         dockerCompose:
