@@ -10,7 +10,6 @@ components:
         dockerCompose:
             command: '--ignore-db-dir=lost+found'
             environment:
-                FRONTEND_URL: 'https://{{ components.frontend.ingress.hosts[0] }}'
                 MYSQL_DATABASE: wordpress
                 MYSQL_PASSWORD: wordpress
                 MYSQL_ROOT_PASSWORD: somewordpress
