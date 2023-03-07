@@ -37,7 +37,7 @@ components:
             restart: always
         hosts:
             -
-                hostname: 'myapp-{{ env.werbase_domain }}'
+                hostname: 'myapp-{{ env.base_domain }}'
                 path: /
                 servicePort: 8000
 volumes:
