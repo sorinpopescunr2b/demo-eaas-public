@@ -10,7 +10,7 @@ components:
         dockerCompose:
             command: '--ignore-db-dir=lost+found'
             environment:
-                FRONTEND_URL: 'https://{{ components.sdffrontend.ingress.hosts[0] }}'
+                FRONTEND_URL: 'https://{{ components.frontend.ingress.hosts[0] }}'
                 MYSQL_DATABASE: wordpress
                 MYSQL_PASSWORD: wordpress
                 MYSQL_ROOT_PASSWORD: somewordpress
@@ -38,7 +38,7 @@ components:
             restart: always
         hosts:
             -
-                hostname: 'myapp-{{ env.base_domainasd }}'
+                hostname: 'myapp-{{ env.base_domain }}'
                 path: /
                 servicePort: 8000
 volumes:
