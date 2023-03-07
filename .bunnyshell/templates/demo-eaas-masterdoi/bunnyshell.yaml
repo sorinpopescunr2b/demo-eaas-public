@@ -10,6 +10,7 @@ components:
         dockerCompose:
             command: '--ignore-db-dir=lost+found'
             environment:
+                test123: '<<BNS_SECRET>>'
                 MYSQL_DATABASE: wordpress
                 MYSQL_PASSWORD: wordpress
                 MYSQL_ROOT_PASSWORD: somewordpress
