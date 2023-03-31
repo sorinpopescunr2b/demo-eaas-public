@@ -1,5 +1,5 @@
 name: 'demo-eaas-masterdoi'
-description: 'This is just a simple NGINX template.'
+llldescription: 'This is just a simple NGINX template.'
 tags:
    - nginx
 stack:
