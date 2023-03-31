@@ -17,7 +17,7 @@ services:
     
   myapp:
     depends_on:
-      - db
+      - dbdd
     build:
       context: ./
     ports:
