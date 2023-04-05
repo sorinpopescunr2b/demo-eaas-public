@@ -19,7 +19,8 @@ services:
     depends_on:
       - db
     build:
-      context: ./levelunu/leveldoi
+      context: ./levelunu
+      dockerfile: Dockerfile-alternate
     ports:
       - "8000:80"
     restart: always
