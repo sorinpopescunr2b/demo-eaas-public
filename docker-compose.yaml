@@ -17,6 +17,7 @@ services:
     
   myapp:
     env_file:
+      - fakefile.env
       - ./common.env
       - ./apps/web.env
       - a.env
