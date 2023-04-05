@@ -14,9 +14,9 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
-      test: ${BACKEND_BUILD_TARGET}
-      test2: ${fakeBACKEND_BUILD_TARGET}
-      test3: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
+      test1referintacorecta: ${BACKEND_BUILD_TARGET}
+      test2referintafalsa: ${fakeBACKEND_BUILD_TARGET}
+      test3referintafalsadarcudouapunctesiliniuta: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
     
   myapp:
     depends_on:
