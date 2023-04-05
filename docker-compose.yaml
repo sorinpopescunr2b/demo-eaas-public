@@ -21,7 +21,7 @@ services:
       test4referintacorectadarculiniuta: ${BACKEND_BUILD_TARGET-liniuta}
       test5referintafalsa: ${fakeBACKEND_BUILD_TARGET}
       test6referintafalsadarcudouapunctesiliniuta: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
-      test7referintafalsadarcudouapuncte: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
+      test7referintafalsadarculiniuta: ${fakeBACKEND_BUILD_TARGET-liniuta}
     
   myapp:
     depends_on:
