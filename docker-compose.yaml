@@ -20,7 +20,6 @@ services:
       - db
     build:
       context: ./levelunu
-      dockerfile: Dockerfile-alternate
     ports:
       - "8000:80"
     restart: always
