@@ -14,7 +14,7 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
-      BACKEND_BUILD_TARGET
+      BACKEND_BUILD_TARGET:
       test1referintacorecta: ${BACKEND_BUILD_TARGET}
       test2referintacorectadarcudouapunctesiliniuta: ${BACKEND_BUILD_TARGET:-douapuncteliniuta}
       test2referintacorectadarcudouapuncte: ${BACKEND_BUILD_TARGET:douapuncte}
