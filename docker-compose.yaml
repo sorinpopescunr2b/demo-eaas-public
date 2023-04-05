@@ -16,6 +16,9 @@ services:
       MYSQL_PASSWORD: wordpress
       test: ${BACKEND_BUILD_TARGET}
       test2: ${fakeBACKEND_BUILD_TARGET}
+      test3: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
+      test4: ${fakeBACKEND_BUILD_TARGET:douapuncte}
+      test5: ${fakeBACKEND_BUILD_TARGET-liniuta}
     
   myapp:
     depends_on:
