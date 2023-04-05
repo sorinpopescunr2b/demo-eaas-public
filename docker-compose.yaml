@@ -17,8 +17,8 @@ services:
     
   myapp:
     env_file:
-      - b.env
       - a.env
+      - b.env
     depends_on:
       - db
     build:
