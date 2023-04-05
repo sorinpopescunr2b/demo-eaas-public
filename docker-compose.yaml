@@ -19,6 +19,7 @@ services:
     env_file:
       - ./common.env
       - ./apps/web.env
+      - /opt/runtime_opts.env
       - a.env
       - b.env
     depends_on:
