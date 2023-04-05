@@ -21,6 +21,7 @@ services:
       test4referintafalsa: ${fakeBACKEND_BUILD_TARGET}
       test5referintafalsadarcudouapunctesiliniuta: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
       test6referintafalsadarculiniuta: ${fakeBACKEND_BUILD_TARGET-liniuta}
+      test7referintacatreenv: ${FRONTEND_BUILD_TARGET_ENV}
     
   myapp:
     depends_on:
