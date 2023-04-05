@@ -15,8 +15,12 @@ services:
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
       test1referintacorecta: ${BACKEND_BUILD_TARGET}
-      test2referintafalsa: ${fakeBACKEND_BUILD_TARGET}
-      test3referintafalsadarcudouapunctesiliniuta: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
+      test2referintacorectadarcudouapunctesiliniuta: ${BACKEND_BUILD_TARGET:-douapuncteliniuta}
+      test2referintacorectadarcudouapuncte: ${BACKEND_BUILD_TARGET:douapuncte}
+      test2referintacorectadarculiniuta: ${BACKEND_BUILD_TARGET-liniuta}
+      test3referintafalsa: ${fakeBACKEND_BUILD_TARGET}
+      test4referintafalsadarcudouapunctesiliniuta: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
+      test5referintafalsadarcudouapuncte: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
     
   myapp:
     depends_on:
