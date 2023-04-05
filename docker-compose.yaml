@@ -14,6 +14,7 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
+      test: ${BACKEND_BUILD_TARGET}
     
   myapp:
     depends_on:
