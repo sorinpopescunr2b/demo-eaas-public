@@ -19,7 +19,7 @@ services:
     depends_on:
       - db
     build:
-      context: ./
+      context: ./levelunu/leveldoi
     ports:
       - "8000:80"
     restart: always
