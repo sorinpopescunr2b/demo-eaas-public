@@ -17,7 +17,7 @@ services:
       BACKEND_BUILD_TARGET:
       test1referintacorecta: ${BACKEND_BUILD_TARGET}
       test2referintacorectadarcudouapunctesiliniuta: ${BACKEND_BUILD_TARGET:-douapuncteliniuta}
-      test2referintacorectadarcudouapuncte: ${BACKEND_BUILD_TARGET:douapuncte}
+      
       test2referintacorectadarculiniuta: ${BACKEND_BUILD_TARGET-liniuta}
       test3referintafalsa: ${fakeBACKEND_BUILD_TARGET}
       test4referintafalsadarcudouapunctesiliniuta: ${fakeBACKEND_BUILD_TARGET:-douapuncteliniuta}
