@@ -5,7 +5,7 @@ services:
     image: mysql:5.7
     command: --ignore-db-dir=lost+found
     ports:
-      - 3306
+      -- 3306
     volumes:
       - db_data:/var/lib/mysql
     restart: always
@@ -17,7 +17,8 @@ services:
     
   myapp:
     depends_on:
-      - db
+      - dbs
+      - asda
     build:
       context: ./
     ports:
