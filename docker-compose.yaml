@@ -17,8 +17,8 @@ services:
     
   myappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyapp:
     depends_on:
-      - dbs
-      - asda
+      - db
+      - asdaadas asd asdq wd qwd qwd qwdqwdw
     build:
       context: ./
     ports:
