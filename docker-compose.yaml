@@ -15,7 +15,7 @@ services:
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
     
-  myappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyapp:
+  myappmyappmyappmyappmyappmyappmyappmyappmyappmyapp myappmyappmyappmyappmyappmyappmyappmyappmyappmyapp myappmyappmyappmyappmyappmyappmyappmyappmyappmyapp myappmyappmyappmyappmyappmyappmyappmyappmyappmyapp myappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyappmyapp:
     depends_on:
       - db
       - asdaadas asd asdq wd qwd qwd qwdqwdw
