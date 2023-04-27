@@ -1,4 +1,4 @@
-name: 'demo-eaas-masterdoi
+name: 'demo-eaas-masterdoi,
 description: 'This is just a simple NGINX template.'
 tags:
    - nginx
