@@ -46,7 +46,7 @@ volumes:
         size: 1Gi
         type: disk
 dev:
-    backend:
+    myapp:
         -
             containers:
                 myapp:
