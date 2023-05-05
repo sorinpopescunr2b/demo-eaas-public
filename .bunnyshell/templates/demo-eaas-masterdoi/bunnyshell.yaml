@@ -49,7 +49,7 @@ dev:
     backend:
         -
             containers:
-                backend:
+                myapp:
                     environment:
                         intertest: '{{ components.db.MYSQL_ROOT_PASSWORD }}'
                             
