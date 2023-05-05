@@ -1,6 +1,8 @@
 kind: Environment
 name: 'demo-eaas template'
 type: primary
+environmentVariables:
+    VaribleOne: valueOne
 components:
     -
         kind: Database
@@ -35,6 +37,9 @@ components:
             ports:
                 - '8000:80'
             restart: always
+            environment:
+                myappenvironmentlevel: '{{ env.vars.VaribleOne }}'
+                myappdblevel: '{{ components.db.vars.MYSQL_DATABASE }}'
         hosts:
             -
                 hostname: 'myapp-{{ env.base_domain }}'
@@ -51,5 +56,7 @@ dev:
             containers:
                 myapp:
                     environment:
-                        intertest: '{{ components.db.MYSQL_ROOT_PASSWORD }}'
+                        devenvironmentlevel: '{{ env.vars.VaribleOne }}'
+                        devdblevel: '{{ components.db.vars.MYSQL_DATABASE }}'
+
                             
