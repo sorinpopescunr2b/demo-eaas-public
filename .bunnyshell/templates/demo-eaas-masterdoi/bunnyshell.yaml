@@ -45,3 +45,11 @@ volumes:
         name: db-data
         size: 1Gi
         type: disk
+dev:
+    backend:
+        -
+            containers:
+                backend:
+                    environment:
+                        intertest: '{{ components.db.MYSQL_ROOT_PASSWORD }}'
+                            
