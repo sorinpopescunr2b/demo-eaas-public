@@ -1,0 +1,16 @@
+name: 'failure test 1'
+description: 'This is just a simple NGINX template.'
+tags:
+   - nginx
+stack:
+  packages:
+    - name: nodejs
+      version: '16'
+    - name: express
+      version: '4.18.2'
+    - name: postgres
+      version: '11.9.11'
+    - name: react
+      version: '17.02'
+icons: [ 'nginx' ]
+discoverable: true
